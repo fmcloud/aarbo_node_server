@@ -2,17 +2,56 @@
 # yarn lockfile v1
 
 
-"@angular/cdk@^9.2.4":
-  "integrity" "sha512-iw2+qHMXHYVC6K/fttHeNHIieSKiTEodVutZoOEcBu9rmRTGbLB26V/CRsfIRmA1RBk+uFYWc6UQZnMC3RdnJQ=="
-  "resolved" "https://registry.npmjs.org/@angular/cdk/-/cdk-9.2.4.tgz"
-  "version" "9.2.4"
+"@angular/animations@^14.0.0 || ^15.0.0", "@angular/animations@14.2.5":
+  "integrity" "sha512-4BhR9jSjgIwoK/alu7FSwSU5SxISMVFBAl/4cEYchfCqnflMNkZ8WwRVKTQjyeuYW5KtQTw9jRNp4tGK1YQWYw=="
+  "resolved" "https://registry.npmjs.org/@angular/animations/-/animations-14.2.5.tgz"
+  "version" "14.2.5"
+  dependencies:
+    "tslib" "^2.3.0"
+
+"@angular/cdk@^14.2.4", "@angular/cdk@14.2.4":
+  "integrity" "sha512-5jngZcOyC2n9pRYec/D0iCw72QSnCkGYjtfgIlOK/FZYGhpOa34GMGObPuv4F0u7J2TEtbO6xIFsCFaK0FLIWQ=="
+  "resolved" "https://registry.npmjs.org/@angular/cdk/-/cdk-14.2.4.tgz"
+  "version" "14.2.4"
+  dependencies:
+    "tslib" "^2.3.0"
   optionalDependencies:
     "parse5" "^5.0.0"
 
-"@angular/material@^9.2.4":
-  "integrity" "sha512-LkoTXE6B0slvMhvfZDdPWaz4yaYLkaAp5VSPunI9pxGsPxzqEV9e210wC1/sjG/76Nk8Ep7/2z9XKac8Q9bMwA=="
-  "resolved" "https://registry.npmjs.org/@angular/material/-/material-9.2.4.tgz"
-  "version" "9.2.4"
+"@angular/common@^14.0.0 || ^15.0.0", "@angular/common@14.2.5":
+  "integrity" "sha512-v2fIK6imfMkUvYNjZQO+drE39QO3eSS95Yy7UN+6inb47DkAfzx6hipA9zKrMENjsS3kDv1d7cgDHE7WuOCzIw=="
+  "resolved" "https://registry.npmjs.org/@angular/common/-/common-14.2.5.tgz"
+  "version" "14.2.5"
+  dependencies:
+    "tslib" "^2.3.0"
+
+"@angular/core@^14.0.0 || ^15.0.0", "@angular/core@14.2.5":
+  "integrity" "sha512-Ok78Abq0puMGlolvNVzKFvsX7ePDkyxpZzztDzXDdRA4x4o6bAuuDG9Y7Wab2+wsdY6NktO+dFQjq1UBWClgSg=="
+  "resolved" "https://registry.npmjs.org/@angular/core/-/core-14.2.5.tgz"
+  "version" "14.2.5"
+  dependencies:
+    "tslib" "^2.3.0"
+
+"@angular/forms@^14.0.0 || ^15.0.0":
+  "integrity" "sha512-aMH5Vrftny0KF0XzWQIGfHoI0LVQ2aatpWzdUWiUqBeX/Q+ucmxeP5rZyKtUsi0flETWxdRZSBTjbXZ3dsIcTA=="
+  "resolved" "https://registry.npmjs.org/@angular/forms/-/forms-14.2.5.tgz"
+  "version" "14.2.5"
+  dependencies:
+    "tslib" "^2.3.0"
+
+"@angular/material@^14.2.4":
+  "integrity" "sha512-vS7dyrnr2YpZPjFFmnSZ9W0dFpBQ5cWf4CH5AI0/KfbCGC+2ybkFZ61oMNBf1xXdoyf4Ob16Dm3xerKWFwJ4sQ=="
+  "resolved" "https://registry.npmjs.org/@angular/material/-/material-14.2.4.tgz"
+  "version" "14.2.4"
+  dependencies:
+    "tslib" "^2.3.0"
+
+"@angular/platform-browser@^14.0.0 || ^15.0.0", "@angular/platform-browser@14.2.5":
+  "integrity" "sha512-FDZm23N9veSEouQX1YuZUjv7Nillroi+v0VbN1x5iPpFZEudaoZYT3A7bpJwdlxUx/4rGS0caaXNhN3CowtIeQ=="
+  "resolved" "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-14.2.5.tgz"
+  "version" "14.2.5"
+  dependencies:
+    "tslib" "^2.3.0"
 
 "@apollo/protobufjs@1.2.6":
   "integrity" "sha512-Wqo1oSHNUj/jxmsVp4iR3I480p6qdqHikn38lKrFhfzcDJ7lwd7Ck7cHRl4JE81tWNArl77xhnG/OkZhxKBYOw=="
@@ -891,7 +930,7 @@
   "resolved" "https://registry.npmjs.org/graphql-type-json/-/graphql-type-json-0.3.2.tgz"
   "version" "0.3.2"
 
-"graphql@^16.6.0":
+"graphql@^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0", "graphql@^14.0.0 || ^15.0.0", "graphql@^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "graphql@^14.2.0 || ^15.0.0 || ^16.0.0", "graphql@^14.2.1 || ^15.0.0 || ^16.0.0", "graphql@^15.0.0", "graphql@^15.3.0 || ^16.0.0", "graphql@^16.6.0", "graphql@>=0.8.0", "graphql@>=0.9 <0.14 || ^14.0.2 || ^15.4.0", "graphql@14.x || 15.x || 16.x", "graphql@15.5.1":
   "integrity" "sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw=="
   "resolved" "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
   "version" "16.6.0"
@@ -1309,7 +1348,7 @@
   "resolved" "https://registry.npmjs.org/neo4j-driver-core/-/neo4j-driver-core-4.4.10.tgz"
   "version" "4.4.10"
 
-"neo4j-driver@^4.4.0":
+"neo4j-driver@^4.1.0", "neo4j-driver@^4.4.0":
   "integrity" "sha512-FLAytWQbR1CkRFBlmt5N5+PDuKQpSARQXT7F+LFJPar3CKjMrP4VNT5UKfkl0tVc5QSrTxF/Aw2YGBzhs1kyCA=="
   "resolved" "https://registry.npmjs.org/neo4j-driver/-/neo4j-driver-4.4.10.tgz"
   "version" "4.4.10"
@@ -1461,7 +1500,7 @@
   "resolved" "https://registry.npmjs.org/retry/-/retry-0.13.1.tgz"
   "version" "0.13.1"
 
-"rxjs@^6.6.3":
+"rxjs@^6.5.3 || ^7.4.0", "rxjs@^6.6.3":
   "integrity" "sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ=="
   "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-6.6.7.tgz"
   "version" "6.6.7"
@@ -1610,6 +1649,11 @@
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
   "version" "2.4.0"
 
+"tslib@^2.3.0":
+  "integrity" "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ=="
+  "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
+  "version" "2.4.0"
+
 "tslib@^2.4.0":
   "integrity" "sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
@@ -1736,3 +1780,10 @@
   "integrity" "sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A=="
   "resolved" "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
   "version" "4.0.0"
+
+"zone.js@~0.11.4":
+  "integrity" "sha512-82bctBg2hKcEJ21humWIkXRlLBBmrc3nN7DFh5LGGhcyycO2S7FN8NmdvlcKaGFDNVL4/9kFLmwmInTavdJERA=="
+  "resolved" "https://registry.npmjs.org/zone.js/-/zone.js-0.11.8.tgz"
+  "version" "0.11.8"
+  dependencies:
+    "tslib" "^2.3.0"
