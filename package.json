@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "npm start"
    
   },
   "keywords": [],
@@ -14,7 +14,8 @@
   "dependencies": {
     "@angular/cdk": "^14.2.4",
     "@angular/material": "^14.2.4",
-   
+    "@neo4j/graphql": "^2.5.9",
+
     "apollo-server": "^3.5.0",
     "dotenv": "^10.0.0",
     "graphql": "^15.0.0",
