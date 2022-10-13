@@ -1,3 +1,6 @@
+
+
+
 const { Neo4jGraphQL } = require("@neo4j/graphql");
 const { ApolloServer, gql } = require("apollo-server");
 const neo4j = require("neo4j-driver");
@@ -1533,14 +1536,23 @@ const driver = neo4j.driver(
 
 const neoSchema = new Neo4jGraphQL({ typeDefs, driver });
 
+
+
+
+
 const server = new ApolloServer({
     driverConfig: { database: process.env.NEO4J_DATABASE || 'neo4j' },
     schema: neoSchema.schema,
+
 });
 // Specify host, port and path for GraphQL endpoint
 const host = process.env.GRAPHQL_SERVER_HOST || '0.0.0.0'
 const port = process.env.GRAPHQL_SERVER_PORT || 4003
 const path = process.env.GRAPHQL_SERVER_PATH || '/graphql'
+
+
+  
+
 
 
 server.listen(4003).then(({ url }) => {
