@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.mjs",
   "private": true,
+ 
+  "cache": "bounded",
   "scripts": {
     "start": "node index.js"
   },
@@ -20,9 +22,8 @@
     "dotenv": "^10.0.0",
     "graphql": "^15.0.0",
     "keyv": "^4.5.0",
-    "neo4j-driver": "^4.4.0",
-    "type": "module",
-    "cache": "bounded"
+    "neo4j-driver": "^4.4.0"
+   
     
   }
 }
